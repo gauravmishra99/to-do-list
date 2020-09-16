@@ -1,0 +1,55 @@
+.modal-hue {
+  z-index: 1;
+  position: fixed;
+  top: 35%;
+  left: 29%;
+  background-color: white;
+}
+
+.addtaskbutton {
+  background-color: transparent !important;
+  border: 1px solid #3f51b5 !important;
+  box-shadow: none !important;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 10px;
+}
+
+.task-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  white-space: initial;
+  max-width: 75%;
+  margin-left: 10px;
+}
+
+.task-heading{
+  color: green;
+}
+
+.task-details {
+  font-size: 12px;
+  font-weight: 100;
+  max-width: 100%;
+  margin-top: 8px;
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
+  hyphens: auto !important;
+}
+
+.task-details p {
+  word-wrap: break-word;
+}
+
+.done-icon{
+  color: green !important;
+}
+
+.completed-btn{
+  border: 1px solid green !important;
+}

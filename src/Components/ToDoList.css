@@ -1,0 +1,20 @@
+.todolist-icon {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+.todolist-body {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.modal-hue {
+  z-index: 1;
+  position: fixed;
+  top: 35%;
+  left: 29%;
+  background-color: white;
+}
